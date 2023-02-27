@@ -52,7 +52,7 @@ html {
 
 .topheaderbox {
     box-shadow: none !important;
-    height: 80px;
+    height: 122px;
 }
 
 .topheaderbox {
@@ -60,6 +60,7 @@ html {
 
     position: relative;
 }
+
 
 .read-more-button {
     cursor: pointer;
@@ -535,9 +536,9 @@ span.text {
 .innerbuyNow {
     background: #0E76BC;
     border-radius: 68px;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 100px;
     height: auto !important;
 
 }
@@ -572,13 +573,13 @@ span.text {
 
 .innerbuyNow>div>input {
     border-radius: 30px;
-    width: 80%;
-    height: 60px;
+    width: 93%;
+    height: 80px;
     margin: 18px auto;
     border: none;
     align-items: center;
     display: flex;
-    padding: 10px 22px;
+    padding: 10px 50px;
     font-family: "Proxima Nova";
     font-style: normal;
     font-weight: 400;
@@ -590,13 +591,22 @@ span.text {
     outline: none;
 }
 
+.innerbuyNow>div>input::placeholder {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.1424px;
+    line-height: 17px;
+    margin-left: 20px;
+    color: #B5B5B5;
+}
+
 .formSubmit {
     display: flex;
     justify-content: end;
     bottom: 20px;
-    right: 90px;
     padding-bottom: 20px;
-    margin-right: 87px;
+    margin-right: 23px;
 }
 
 .formSubmit>button {
@@ -611,7 +621,8 @@ span.text {
 }
 
 .formSubmit> :first-child {
-    background: #757675;
+    background: var(--white);
+    color: var(--blackfont);
 }
 
 .formSubmit> :last-child {
@@ -630,14 +641,14 @@ span.text {
 
 .main {
     background-image: url("./assets/image\ \(10\).jpeg");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 87vh !important;
+    height: 92vh !important;
     width: 100% !important;
     overflow-x: hidden;
-
 }
+
 
 
 .features>h3 {
@@ -1197,6 +1208,7 @@ span.text {
 
     .formSubmit> :first-child {
         background: #757675;
+        color: var(--white);
     }
 
     .formSubmit> :last-child {
@@ -1237,5 +1249,9 @@ span.text {
 
     .section>p {
         display: none;
+    }
+
+    .formHeader {
+        display: none !important;
     }
 }

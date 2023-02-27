@@ -10,8 +10,10 @@ const BuyNow = () => {
 
   return (
     <Fragment>
-      <div className="buyNowMain fordesktop">
+      <div className="formHeader">
         <Header />
+      </div>
+      <div className="buyNowMain fordesktop">
         {!show ? (
           <>
             <Fade left>
@@ -35,27 +37,29 @@ const BuyNow = () => {
             </Fade>
           </>
         ) : (
-          <Fade right>
-            <div className="innerbuyNow">
-              <h4> Plan Information </h4>
-              <div className="form">
-                <input placeholder="Contribution" />
+          <>
+            <Fade right>
+              <div className="innerbuyNow">
+                <h4> Plan Information</h4>
+                <div className="form">
+                  <input placeholder="Contribution" />
 
-                <input placeholder="Contribution Frequency" />
+                  <input placeholder="Contribution Frequency" />
 
-                <input placeholder="Cover Multiple" />
+                  <input placeholder="Cover Multiple" />
 
-                <input placeholder="Contribution Term" />
-                <input placeholder="Benefit Term" />
-                <input placeholder="Face Value" />
+                  <input placeholder="Contribution Term" />
+                  <input placeholder="Benefit Term" />
+                  <input placeholder="Face Value" />
 
-                <span className=" formSubmit">
-                  <button onClick={() => setshow(false)}> back</button>
-                  <button onClick={() => setshow(true)}>Submit</button>
-                </span>
+                  <span className=" formSubmit">
+                    <button onClick={() => setshow(false)}> back</button>
+                    <button onClick={() => setshow(true)}>Submit</button>
+                  </span>
+                </div>
               </div>
-            </div>
-          </Fade>
+            </Fade>
+          </>
         )}
       </div>
 
