@@ -40,7 +40,7 @@ const BuyNow = () => {
           <>
             <Fade right>
               <div className="innerbuyNow">
-                <h4> Plan Information</h4>
+                <h4> Plan Informations</h4>
                 <div className="form">
                   <input placeholder="Contribution" />
 
