@@ -43,6 +43,11 @@ html {
 
 }
 
+.innerbuyNow1 {
+    margin-top: 46px !important;
+
+}
+
 .call_btn>a>button {
 
     border-radius: 0 !important;
@@ -1187,9 +1192,10 @@ span.text {
         outline: none;
     }
 
+
     .formSubmit {
         bottom: 100px;
-        right: 17px;
+        right: 49px;
         margin: 0;
         position: absolute;
         bottom: 78px;

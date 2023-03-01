@@ -9,12 +9,6 @@ const AboutEsg = () => {
         <div>
           <img src={CeoImg} alt="" />
         </div>
-        <div className="section">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore
-          </p>
-        </div>
       </div>
     </Fade>
   );

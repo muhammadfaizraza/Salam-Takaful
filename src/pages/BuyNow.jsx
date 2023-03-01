@@ -39,7 +39,7 @@ const BuyNow = () => {
         ) : (
           <>
             <Fade right>
-              <div className="innerbuyNow">
+              <div className="innerbuyNow  innerbuyNow1">
                 <h4> Plan Informations</h4>
                 <div className="form">
                   <input placeholder="Contribution" />
@@ -81,7 +81,7 @@ const BuyNow = () => {
                   <input placeholder="Gender" />
 
                   <input placeholder="Date of Birth" />
-                  <div className=" formSubmit">
+                  <div className="formSubmit">
                     <button onClick={() => navigate("/")}>Back </button>
 
                     <button onClick={() => setshow(true)}>Next</button>
@@ -108,7 +108,7 @@ const BuyNow = () => {
                 <input placeholder="Benefit Term" />
                 <input placeholder="Face Value" />
 
-                <div className=" formSubmit">
+                <div className="formSubmit">
                   <button onClick={() => setshow(false)}> back</button>
                   <button onClick={() => setshow(true)}>Submit</button>
                 </div>
