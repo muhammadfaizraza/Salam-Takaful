@@ -1,3 +1,140 @@
+@media (max-width:1024px) and (min-width:769px) {
+
+
+
+    .headercontent {
+
+        width: 344px;
+
+        margin-right: 25px;
+
+    }
+
+    .features>h3 {
+        font-size: 40px;
+    }
+
+    .innerbuyNow {
+        width: 84%;
+    }
+
+    .innerbuyNow1 {
+        margin-top: 5px !important;
+    }
+}
+
+@media (max-width:1200px) and (min-width:1024px) {
+
+
+    .headercontent {
+        display: flex;
+        width: 605px;
+        justify-content: space-evenly;
+        margin-right: -29px;
+        align-items: center;
+    }
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .section>p {
+        font-size: 20px;
+    }
+
+    .features>h3 {
+        font-size: 38px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width:1400px) and (min-width:1200px) {
+
+
+    .innerbuyNow {
+        background: #0E76BC;
+        border-radius: 68px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 100px;
+
+    }
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .section>p {
+        font-size: 20px;
+    }
+
+    .features>h3 {
+        font-size: 38px;
+    }
+
+    .headercontent {
+        display: flex;
+        width: 700px;
+        justify-content: space-evenly;
+        margin-right: -29px;
+        align-items: center;
+    }
+
+}
+
+
+
+@media (max-width:1660px) and (min-width:1400px) {
+
+
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .section>p {
+        font-size: 20px;
+    }
+
+    .features>h3 {
+        font-size: 40px;
+    }
+
+}
+
+
+@media (max-width:1880px) and (min-width:1660px) {
+
+
+
+    .innerbuyNow1 {
+        margin-top: 8px !important;
+    }
+
+    .section>p {
+        font-size: 20px;
+    }
+
+    .features>h3 {
+        font-size: 45px;
+    }
+
+}
+
+
 @media (max-width: 768px) and (min-width: 480px) {
 
     .formoblie {
@@ -271,7 +408,7 @@
     /* about */
     .section {
         margin-top: 97px;
-        height: 50vh;
+        height: 65vh;
         overflow-y: scroll;
         padding-left: 40px;
         padding-right: 104px;
@@ -500,7 +637,6 @@
 
     .formSubmit {
         bottom: 100px;
-
         margin: 0 auto;
         position: absolute;
         justify-content: center;
