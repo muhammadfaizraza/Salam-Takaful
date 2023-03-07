@@ -6,6 +6,7 @@ import './style.css';
 import BuyNow from './pages/BuyNow';
 import Product from './pages/product';
 import Esg from './pages/esg';
+import "../src/responsive.css"
 
 function App() {
 
