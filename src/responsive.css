@@ -25,6 +25,11 @@
 
 @media (max-width:1200px) and (min-width:1024px) {
 
+    .innerbuyNow {
+
+        width: 75%;
+
+    }
 
     .headercontent {
         display: flex;
@@ -100,6 +105,12 @@
 @media (max-width:1660px) and (min-width:1400px) {
 
 
+    .innerbuyNow {
+
+        width: 65%;
+
+
+    }
 
     .innerbuyNow1 {
         margin-top: 8px !important;
@@ -639,11 +650,12 @@
         bottom: 100px;
         margin: 0 auto;
         position: absolute;
+
         justify-content: center;
         align-items: center;
         margin: 0 auto !important;
         display: flex;
-        right: 8%;
+        right: 15%;
     }
 
     .formSubmit>button {
@@ -708,7 +720,7 @@
 }
 
 
-@media (max-width: 480px) and (min-width: 375px) {
+@media only screen and (max-width :480px) {
 
     .formoblie {
         display: block !important;
@@ -1275,4 +1287,19 @@
     .formHeader {
         display: none !important;
     }
+}
+
+@media (min-width :600px)and (max-width:700px) {
+
+    .formSubmit {
+        bottom: 100px;
+        margin: 0 auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto !important;
+        display: flex;
+        right: 7%;
+    }
+
 }
