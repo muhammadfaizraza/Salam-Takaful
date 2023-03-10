@@ -81,10 +81,12 @@ const BuyNow = () => {
                   <input placeholder="Gender" />
 
                   <input placeholder="Date of Birth" />
-                  <div className="formSubmit">
-                    <button onClick={() => navigate("/")}>Back </button>
+                  <div className="footerbottom">
+                    <div className="formSubmit ">
+                      <button onClick={() => navigate("/")}>Back </button>
 
-                    <button onClick={() => setshow(true)}>Next</button>
+                      <button onClick={() => setshow(true)}>Next</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -107,10 +109,11 @@ const BuyNow = () => {
                 <input placeholder="Contribution Term" />
                 <input placeholder="Benefit Term" />
                 <input placeholder="Face Value" />
-
-                <div className="formSubmit">
-                  <button onClick={() => setshow(false)}> back</button>
-                  <button onClick={() => setshow(true)}>Submit</button>
+                <div className="footerbottom">
+                  <div className="formSubmit">
+                    <button onClick={() => setshow(false)}> back</button>
+                    <button onClick={() => setshow(true)}>Submit</button>
+                  </div>
                 </div>
               </div>
             </div>
